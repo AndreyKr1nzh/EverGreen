@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Каталог</title>
+    <link rel="stylesheet" href="catalog.css">
+</head>
+<body>
+
+    <header>
+        <img src="imgs/logo.svg" alt="logo">
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="catalog.html">Растения</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+    </header>
+
+    <div class="search">
+        <input type="text" placeholder="Поиск товаров...">
+        <button>Найти</button>
+    </div>
+
+    <div class="filters">
+        <h3>Фильтры:</h3>
+        
+        <div class="filter-group">
+            <label>Категория:
+                <select data-filter="category">
+                    <option>Все</option>
+                    <option>Кустарники</option>
+                    <option>Деревья</option>
+                    <option>Цветы</option>
+                </select>
+            </label>
+        </div>
+
+        <div class="filter-group">
+            <label>Цена:
+                от <input type="number" data-filter="min-price" placeholder="мин" min="0">
+                до <input type="number" data-filter="max-price" placeholder="макс" min="0">
+            </label>
+        </div>
+
+        <button>Применить фильтры</button>
+    </div>
+
+    <hr style="width: 90%; margin: 0 auto; margin-bottom: 15px;">
+
+    <div class="products">
+        <div class="product-card">
+            <img src="imgs/цветок4.jpg" alt="цветок">
+            <h3>"Табак крылатый"</h3>
+            <p>Вид: Цветы</p>
+            <p>Цена: 960p</p>
+            <a href="product.html" class="product-link">Перейти к товару</a>
+        </div>
+        <div class="product-card">
+            <img src="imgs/Цветок3.jpg" alt="цветок">
+            <h3>"Аквилегия красная звезда"</h3>
+            <p>Вид: Цветы</p>
+            <p>Цена: 1300p</p>
+            <a href="product.html" class="product-link">Перейти к товару</a>
+        </div>
+        <div class="product-card">
+            <img src="imgs/Цветок2.jpg" alt="цветок">
+            <h3>"Гацания"</h3>
+            <p>Вид: Цветы</p>
+            <p>Цена: 1200p</p>
+            <a href="product.html" class="product-link">Перейти к товару</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="contact-info">
+            <p><strong>Адрес:</strong> г. Владимир, ул. Садовая, 123</p>
+            <p><strong>Телефон:</strong> +7 915 757 87 69</p>
+            <p><strong>Email:</strong> info@vad-ssd.ru</p>
+            <p><strong>График работы:</strong> Пн-Пт: 9:00–18:00, Сб-Вс: 10:00–16:00</p>
+        </div>
+    </footer>
+</body>
+</html>
