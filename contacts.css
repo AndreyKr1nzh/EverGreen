@@ -166,12 +166,6 @@ h1, h2, h3 {
     text-align: center;
 }
 
-.static-map {
-    max-width: 100%;
-    height: auto;
-    border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 
 /* Адаптация */
 @media (max-width: 768px) {
