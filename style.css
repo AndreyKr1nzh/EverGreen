@@ -91,13 +91,14 @@ nav a:hover {
 }
 .slides {
     display: flex;
+    transition: transform 0.5s ease;
 }
 .slide {
     width: 300px;
 }
 .slide img {
     width: 400px;
-    height: auto;
+    height: 310px;
 }
 .btnslide a {
     cursor: pointer;
@@ -217,4 +218,14 @@ footer {
 
 .contact-info p {
     margin-bottom: 7px;
+}
+
+/* Стили для работы слайдера */
+
+.advantage-card-left,
+.advantage-card-right,
+.product-card {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease;
 }
