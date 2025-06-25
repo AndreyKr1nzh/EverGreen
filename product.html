@@ -28,44 +28,35 @@
         </div>
 
         <div class="product-info">
-            <h2 class="product-title">Табак крылатый</h2>
-            <div class="product-price">1 290 р</div>
+            <h2 class="product-title"></h2>
+            <div class="product-price"></div>
             <div class="product-description">
-                <p>Элегантный табак крылатый с крупными махровыми цветками нежно-розового оттенка. Аромат насыщенный, с фруктовыми нотками. Идеально подходит для оформления клумб и бордюров.</p>
-                <p>Высота взрослого растения: 90-120 см. Период цветения: с июня по сентябрь. Морозостойкость: высокая (до -25°C).</p>
+                <p></p>
+                <p></p>
             </div>
         </div>
     </div>
 
-    <div class="reviews">
-        <h3 class="reviews-title">Отзывы о товаре</h3>
-        
-        <div class="review">
-            <div class="rating">★★★★★</div>
-            <div class="review-author">Ирина Петрова</div>
-            <div class="review-text">Цветок просто великолепен! Прижился хорошо, уже в первый год дал несколько бутонов. Аромат волшебный. Очень довольна покупкой.</div>
-        </div>
-        
-        <div class="review">
-            <div class="rating">★★★★☆</div>
-            <div class="review-author">Александр Смирнов</div>
-            <div class="review-text">Красивое растение, но потребовалось больше ухода, чем я ожидал. Цветы действительно очень красивые, как на фото.</div>
-        </div>
-        
-        <div class="review">
-            <div class="rating">★★★★★</div>
-            <div class="review-author">Ольга Иванова</div>
-            <div class="review-text">Заказывала уже три таких розы для своего сада. Все прижились, зимуют хорошо. Советую этот сорт всем любителям роз!</div>
-        </div>
+    <div class="reviews-section">
+  <h3>Отзывы о товаре</h3>
+  
+  <div class="reviews-container"></div>
+  
+  <form class="review-form">
+    <h4>Оставить отзыв</h4>
+    <div>
+      <label>Ваше имя (необязательно):</label>
+      <input type="text" name="author" placeholder="Аноним">
     </div>
-
-<footer>
-    <div class="contact-info">
-        <p><strong>Адрес:</strong> г. Владимир, ул. Садовая, 123</p>
-        <p><strong>Телефон:</strong> +7 915 757 87 69</p>
-        <p><strong>Email:</strong> info@vad-ssd.ru</p>
-        <p><strong>График работы:</strong> Пн-Пт: 9:00–18:00, Сб-Вс: 10:00–16:00</p>
+    <div>
+      <label>Текст отзыва:</label>
+      <textarea name="text" rows="4" required></textarea>
     </div>
+    <button type="submit">Отправить отзыв</button>
+  </form>
+</div>
 </footer>
+<script src="products.js"></script>
+<script src="product.js" defer></script>
 </body>
 </html>
